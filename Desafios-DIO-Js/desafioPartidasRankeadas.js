@@ -1,7 +1,5 @@
-let vitorias = 100
+let vitorias = 106
 let derrotas = 5
-//let media = (vitorias - derrotas)
-//let partidas= (vitorias,)
 
 function subtracao() {
     return vitorias - derrotas;  
@@ -26,15 +24,7 @@ else if ((saldoVitorias >= 81) && (saldoVitorias <= 90)){
 else if ((saldoVitorias >= 91) && (saldoVitorias <= 100)){
     nivel = "Lendario"
 }
-else if (saldoVitorias >= 101){
+else if (saldoVitorias >= 101) {
     nivel = "Imortal"
 }
 console.log("O Herói tem de saldo de " + saldoVitorias + " está no nivel " + nivel)
-
-
-
-
-
-
-// if (media <= 10)
-//  " está no nivel "+nivel 
