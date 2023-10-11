@@ -3,7 +3,7 @@ let invoice = {
 	age: 28,
 	classes:{
     	0: ["Mago", "Magia"],
-		1: ["Guerreiro", "Espada"],
+	1: ["Guerreiro", "Espada"],
         2: ["Monge", "Punho"],
         3: ["Ninja", "Shuriken"]
     }
